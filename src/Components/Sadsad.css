@@ -1,0 +1,112 @@
+.backgrf {
+    margin: 50px 0 0 0;
+    background-size: 100%;
+    background-image: url(../assets/abst3.png);
+    width: 100%;
+}
+#gridfortable {
+    padding: 100px 0px 100px 1px;
+    display: grid;
+    grid-template-columns: repeat(2, 900px);
+    grid-template-rows: repeat(1, 850);
+    column-gap: 5%;
+    justify-content: center;
+    align-items: center;
+}
+#Form {
+    width: 900px;
+    height: 730px;
+}
+
+#Ank {
+    width: 900px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 40px;
+    padding-bottom: 50px;
+}
+#Ank h2 {
+    font-family: sans-serif;
+    text-align: start;
+    padding: 40px 40px 0 50px;
+    font-size: 35px;
+}
+#Ank p {
+    font-family: sans-serif;
+    text-align: start;
+    padding: 20px 50px 0 50px;
+    font-size: 20px;
+}
+#selectDoc {
+    height: 70px;
+    width: 800px;
+    margin-top: 30px;
+    border: none;
+    border: 1px solid rgb(212, 212, 212);
+    margin-left: 50px;
+    border-radius: 50px;
+    padding: 0 0px 0 20px;
+}
+#Ank input {
+    padding: 0 20px 0 20px;
+    width: 375px;
+    border: none;
+    border: 2px solid rgb(212, 212, 212);
+    margin-top: 30px;
+    border-radius: 50px;
+    margin-left: 50px;
+    height: 70px;
+}
+#Ank #date {
+    width: 180px;
+    padding-right: 5px;
+    padding-left: 15px;
+}
+#Ank #time {
+    width: 143px;
+    padding-left: 15px;
+    position: relative;
+}
+#Ank #Appointment {
+    height: 70px;
+    width: 780px;
+    margin-top: 30px;
+    border: none;
+    color: white;
+    background-color: rgb(32, 146, 209);
+    margin-left: 50px;
+    border-radius: 50px;
+    padding: 0 0 0 20px;
+    font-size: 20px;
+}
+#Ank #Appointment:hover {
+    background-color: rgb(43, 138, 189);
+}
+#SecondGrid {
+    width: 900px;
+}
+#SecondGrid h2 {
+    color: white;
+    font-size: 45px;
+    padding: 40px 40px 0 80px;
+}
+#SecondGrid #Nash {
+    width: 800px;
+    font-family: sans-serif;
+    text-align: start;
+    padding: 20px 0px 40px 80px;
+    font-size: 20px;
+    color: white;
+}
+#SecondGrid #Nash2 {
+    border-top: 1px solid white;
+    width: 800px;
+    font-family: sans-serif;
+    text-align: start;
+    padding: 40px 25px 0 0px;
+    font-size: 20px;
+    color: white;
+}
+#SecondGrid div {
+    margin-left: 80px;
+}

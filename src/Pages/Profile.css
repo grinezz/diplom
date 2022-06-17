@@ -1,0 +1,50 @@
+#sectiBg {
+    background-color: rgb(248, 248, 246);
+}
+#footer {
+    background-color: rgb(239, 239, 234);
+    margin-top: 80px;
+}
+#FormIn {
+    position: relative;
+    bottom: -150px;
+    padding-bottom: 250px;
+}
+#FormIn h3 {
+    text-align: center;
+}
+#InProfile {
+    background-color: white;
+    width: 550px;
+    height: 300px;
+    margin: auto;
+    border-radius: 20px;
+}
+#InProfile input {
+    width: 350px;
+}
+#InProfile #Login {
+    padding: 60px 0 0 100px;
+    margin: 0;
+}
+#InProfile #Password {
+    padding: 20px 0 0 100px;
+    margin: 0;
+}
+#InProfile input {
+    margin: 0px 0 0 100px;
+}
+#InProfile button {
+    height: 40px;
+    width: 150px;
+    margin-top: 20px;
+    border: none;
+    color: white;
+    background-color: rgb(23, 158, 230);
+    margin-left: 190px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+#InProfile button:hover {
+    background-color: rgb(41, 146, 203);
+}

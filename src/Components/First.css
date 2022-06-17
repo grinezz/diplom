@@ -1,0 +1,36 @@
+#back {
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+    border-radius: 30px;
+    background-size: 100%;
+    background-image: url(../assets/durka.png);
+    opacity: 0.9;
+}
+#back span {
+    padding: 0 0 0 10px;
+}
+#filt {
+    position:relative;
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    bottom: 30px;
+}
+#back h1 {
+    position:absolute;
+    font-family: sans-serif;
+    font-size: 50px;
+    bottom:0;
+    background-color:rgb(241, 241, 241);
+    opacity: 0.8;
+    border-radius: 0px 10px 0px 0px;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#back p {
+    font-family: sans-serif;
+    text-align: start;
+    padding-left: 10px;
+    font-size: 20px;
+}

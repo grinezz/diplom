@@ -1,0 +1,53 @@
+#glavv {
+    font-family: sans-serif;
+    width: 100%;
+}
+#Napr {
+    text-align: center;
+    margin: 10px 0 40px 0;
+    font-size: 35px;
+}
+#Maindiv {
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    grid-template-rows: repeat(3, 230px);
+    grid-column-gap: 2%;
+    grid-row-gap: 2%;
+    width: 1280px;
+    height: 720px;
+    margin: auto;
+}
+#Maindiv div {
+    box-shadow: 0px 0px 15px 0px rgb(224, 224, 224);
+    border-radius: 25px;
+    
+}
+#Maindiv h3 {
+    text-align: start;
+    padding: 15px;
+}
+#Maindiv img {
+    width: 80px;
+    height: 70px;
+    position: relative;
+    top: 70px;
+    left: 80px;
+} 
+#Maindiv a {
+    text-decoration:none;
+    position: relative;
+    bottom: 30px;
+    left: 15px;
+    color: rgb(168, 148, 214);
+    cursor: pointer;
+}
+#Maindiv a:hover {
+    color: rgb(112, 52, 134);
+}
+#Maindiv div:hover {
+    transform-origin: top;
+    margin-top: -10px;
+    background-color:white ;
+    transition: margin-left 130ms;
+    transition: margin-top 130ms;
+}

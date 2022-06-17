@@ -1,0 +1,46 @@
+#GlavBlock{
+    width: 100%;
+    padding-bottom: 100px;
+}
+#Zagl h3{
+    font-size: 35px;
+    padding: 50px 0 50px 0;
+    text-align: center;
+}
+#ForDiag {
+    display: grid;
+    grid-template-columns: repeat(2, 850px);
+    grid-template-rows: repeat(2, 550px);
+    grid-column-gap: 5%;
+    grid-row-gap: 5%;
+    width: 1790px;
+    margin: auto;
+}
+#FirstAna {
+    width: 850px;
+    height: 550px;
+    border-radius: 35px;
+    box-shadow: 0px 0px 15px 0px rgb(224, 224, 224);
+    background-color: white;
+    display: flex;
+}
+#FirstAna .GlavImage {
+    height: 550px;
+}
+#FirstAna h3 {
+    padding: 30px 0px 20px 40px;
+    font-size: 30px;
+}
+.Opisan {
+    width: 25px;
+    height: 25px;
+    margin: 4px 0 0 0;
+}
+.DivBlocks {
+    font-size: 23px;
+    display: flex;
+    margin: 0 0 -5px 30px;
+}
+.DivBlocks p {
+    padding: 0 0 0 4px;
+}

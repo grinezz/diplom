@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+.App {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: 1fr;
+}
+
+.cell {
+    height: 60px;
+    padding: 10px;
+    border: 1px solid #dadada;
+}
+
+.appointment {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+

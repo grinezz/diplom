@@ -1,0 +1,78 @@
+#head {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: sans-serif;
+    cursor: pointer;
+    padding-bottom: 1px;
+    position: fixed;
+    z-index: 3;
+    height: 100px;
+}
+#head ul {
+    width: 100%;
+    display: flex;
+}
+#head #Liiiink {
+    border: none;
+    padding: 0;
+    margin-top: 4px;
+}
+#head a {
+    text-decoration:none;
+    color: black;
+    border-right: 1px solid rgb(27, 27, 27);
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    height: 10%;
+    padding: 1% 4% 1% 4%;
+    margin-top: 1%;
+}
+#user p {
+    margin: 0;
+    text-align: start;
+    margin-left: 6%;
+    color: rgb(114, 114, 114);
+    position: relative;
+    top: 1px;
+}
+#head #user {
+    width:100%;
+    color: white;
+    background-color: rgb(238, 238, 238);
+    border: none;
+    margin: 30px 0 30px 0;
+    border-radius: 40px;
+    display: flex;
+}
+#head .cont {
+    border: none;
+}
+#head #contt {
+    border: none;
+}
+#head a:hover{
+   color: rgb(118, 187, 187);
+   border-bottom: 2px solid rgb(118, 187, 187);
+}
+#head #user:hover {
+    background-color: rgb(216, 216, 216);
+}
+#nav {
+    width: 1800px;
+    margin: auto;
+}
+#head #cont:hover {
+    border-bottom: 2px solid rgb(118, 187, 187);
+}
+#nav img {
+    width: 180px;
+    height: 100px;
+}
+#user img {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 3px;
+}
